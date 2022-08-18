@@ -45,7 +45,7 @@
         } 
       },
       "get": {
-        "tags": ["Category"],
+        "tags": ["Banner"],
         "summary": "List all categories",
         "description": "List all categories",
         "responses": {
@@ -60,7 +60,7 @@
                     "name": {
                       "type": "string"
                     },
-                    "description": {
+                    "image": {
                       "type": "string"
                     }
                   }
@@ -71,6 +71,5 @@
         }
       }
     }
-
   }
 }
